@@ -1,8 +1,8 @@
 import { MapSchema, Schema, ArraySchema, type } from "@colyseus/schema";
 
 export interface InputData {
-  x: 0;
-  y: 0;
+  x: number;
+  y: number;
   tick: number;
 }
 
